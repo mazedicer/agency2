@@ -4,7 +4,6 @@ scss
 mail
 js
 img
-css
 .travis.yml
 gulpfile.js
 package.json
