@@ -60,7 +60,7 @@ section {
     display: none;
 }
 .carousel-caption {
-    margin-bottom:100px;
+    margin-bottom:20px;
 }
 .carousel-caption h2 {
 font-family:    Serif;
@@ -337,6 +337,9 @@ header.masthead {
 @media (min-width: 992px) {
     .carousel-h1 {
         display:block;
+    }
+    .carousel-caption {
+        margin-bottom:100px;
     }
 }
 

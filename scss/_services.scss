@@ -17,7 +17,7 @@
     display: none;
 }
 .carousel-caption {
-    margin-bottom:100px;
+    margin-bottom:20px;
 }
 .carousel-caption h2 {
 font-family:    Serif;
@@ -28,5 +28,10 @@ color:          black !important;
     font-size: 2em;
     color: black;
     display:none;
+}
+@media(min-width:940px){
+    .carousel-caption {
+        margin-bottom:20px;
+    }
 }
 /* /mario carrizales 9-13-2017 */
