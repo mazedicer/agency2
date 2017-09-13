@@ -40,6 +40,12 @@ section {
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 /* mario carrizales 9-13-2017 */
+.card {
+    background: #000;
+}
+.card-title {
+    color:beige;
+}
 .carousel-h1 {
     font-size: 4em;
     color:#000;
@@ -51,6 +57,9 @@ section {
     padding-top:150px;
     text-shadow: 2px 2px #333;
     display: none;
+}
+.carousel-caption {
+    margin-bottom:100px;
 }
 .carousel-caption h2 {
 font-family:    Serif;
@@ -520,7 +529,9 @@ section#contact {
 
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+    background: #000;
+}
   footer span.copyright {
     font-size: 90%;
     line-height: 40px;
