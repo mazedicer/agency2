@@ -1,0 +1,32 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+/* mario carrizales 9-13-2017 */
+.carousel-h1 {
+    font-size: 4em;
+    color:#000;
+        position: absolute;
+    z-index: 19;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding-top:150px;
+    text-shadow: 2px 2px #333;
+    display: none;
+}
+.carousel-caption {
+    margin-bottom:100px;
+}
+.carousel-caption h2 {
+font-family:    Serif;
+    font-size:      3em;
+color:          black !important;
+}
+.carousel-info {
+    font-size: 2em;
+    color: black;
+    display:none;
+}
+/* /mario carrizales 9-13-2017 */
