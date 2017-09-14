@@ -13,7 +13,6 @@
     font-weight: bold;
     width: 100%;
     padding-top:150px;
-    text-shadow: 2px 2px #333;
     display: none;
 }
 .carousel-caption {
@@ -28,6 +27,9 @@ color:          black !important;
     font-size: 2em;
     color: black;
     display:none;
+}
+p.carousel-info span {
+    text-decoration: underline;
 }
 @media(min-width:940px){
     .carousel-caption {

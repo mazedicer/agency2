@@ -45,32 +45,38 @@ section {
 }
 .card-title {
     color:beige;
-    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
 }
 .carousel-h1 {
     font-size: 4em;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: italic;
     color:#000;
         position: absolute;
     z-index: 19;
     text-align: center;
-    font-weight: bold;
     width: 100%;
     padding-top:150px;
-    text-shadow: 2px 2px #333;
     display: none;
+    text-transform: none;
 }
 .carousel-caption {
     margin-bottom:20px;
 }
 .carousel-caption h2 {
-font-family:    Serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
     font-size:      3em;
 color:          black !important;
+    text-transform: none;
 }
 .carousel-info {
     font-size: 2em;
     color: black;
     display:none;
+}
+p.carousel-info span {
+    text-decoration: underline;
 }
 .material-icons {
     color:#666;
@@ -84,7 +90,7 @@ color:          black !important;
         display:block;
     }
     .carousel-caption h2 {
-        font-size:      3em;
+        font-size:      5em;
     }
 }
 
