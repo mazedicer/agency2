@@ -72,6 +72,9 @@ color:          black !important;
     color: black;
     display:none;
 }
+.material-icons {
+    color:#666;
+}
 /* /mario carrizales 9-13-2017 */
 
 @media (min-width: 768px) {
