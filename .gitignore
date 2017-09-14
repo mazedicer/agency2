@@ -2,7 +2,6 @@ node_modules
 vendor
 mail
 js
-img
 .travis.yml
 gulpfile.js
 package.json
