@@ -36,6 +36,250 @@ section {
 display: none;
 }
 
+/* sasan */
+section#test {
+    margin-bottom: 0; padding-bottom: 0;   
+}
+section#test .item-1, .item-2, .item-3, .item-4 {
+    position: absolute;
+    display: block;
+	top: 5em;
+    width: 60%;
+    font-size: 1.5em;
+    color: black;
+    text-shadow: 0 0 8px #FF0000;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+
+section#test .item-1{
+	animation-name: anim-1;
+}
+
+section#test .item-2{
+	animation-name: anim-2;
+}
+
+section#test .item-3{
+	animation-name: anim-3;
+}
+    
+section#test .item-4{
+	animation-name: anim-4;
+}   
+section#test .tes-img {
+    filter:opacity(40%) brightness(150%);
+    width: 100%;
+    height: 100%;
+    }
+section#test .itemTitle {
+    text-align: right;
+    margin-top: 20px;
+}
+section#test .coltes { padding: 0;}
+ 
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    section#test { 
+    margin-bottom: 0; 
+    }
+    
+    section#test h2 { font-size: 1.5em;}
+    section#test .item-1, .item-2, .item-3, .item-4{ 
+        font-size: 1em;   
+    }
+    section#test .item-2 { width: 72%; font-size: 0.9em; margin-top: 10px;}
+    section#test .item-1 { margin-top: 12px;}
+    section#test .item-3 { margin-top: 30px;}
+    section#test .item-4 { margin-top: 10px;}
+    
+    @keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+    4.3%,25% { left: 23%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 23.33% { left: -100%; opacity: 0; }
+    34.63%, 55.29% { left: 15%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 46.66% { left: -100%; opacity: 0; }
+    69.96%, 76.62% { left: 24%; opacity: 1; }
+    80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 69.99% { left: -100%; opacity: 0; }
+    85.96%, 99.62% { left: 23%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}   
+}
+
+@media screen and (min-width: 414px) and (max-width: 767px) {
+
+    section#test h2 { font-size: 1.5em;}
+    section#test .item-1, .item-2, .item-3, .item-4{ 
+        font-size: 1em;   
+    }
+   
+    
+    section#test .item-2 { width: 72%; font-size: 0.9em; margin-top: 10px;}
+    section#test .item-1 { margin-top: 22px;}
+    section#test .item-3 { margin-top: 30px;}
+    section#test .item-4 { margin-top: 10px;}
+    
+    @keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+    4.3%,25% { left: 23%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 23.33% { left: -100%; opacity: 0; }
+    34.63%, 55.29% { left: 15%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 46.66% { left: -100%; opacity: 0; }
+    69.96%, 76.62% { left: 24%; opacity: 1; }
+    80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 69.99% { left: -100%; opacity: 0; }
+    85.96%, 99.62% { left: 23%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+    section#test { margin: 0; 
+    }
+   section#test .tes-img {
+    width: 150%;
+    height: 100%;
+       margin: 0;
+    }
+    section#test h2 { font-size: 1.5em;}
+    section#test .item-1, .item-2, .item-3, .item-4{ 
+        font-size: 1.3em;   
+    }
+    section#test .item-2 { width: 100%; margin-top: 5px;}
+    section#test .item-1 { width: 100%; margin-top: 10px;}
+    section#test .item-3 { width: 100%; margin-top: 30px;}
+    section#test .item-4 { width: 100%; margin-top: 10px;}
+    
+    @keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+    4.3%,25% { left: 13%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 23.33% { left: -100%; opacity: 0; }
+    34.63%, 55.29% { left: 13%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 46.66% { left: -100%; opacity: 0; }
+    69.96%, 76.62% { left: 13%; opacity: 1; }
+    80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 69.99% { left: -100%; opacity: 0; }
+    85.96%, 99.62% { left: 13%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}   
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    
+    section#test .tes-img {
+    width: 160%;
+    height: 100%;
+       margin: 0;
+    }
+    section#test h2 { font-size: 1.5em;}
+    section#test .item-1, .item-2, .item-3, .item-4{ 
+        font-size: 1.3em;   
+    }
+    section#test .item-2 { width: 100%; margin-top: 5px;}
+    section#test .item-1 { width: 100%; margin-top: 10px;}
+    section#test .item-3 { width: 100%; margin-top: 30px;}
+    section#test .item-4 { width: 100%; margin-top: 10px;}
+    
+    @keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+    4.3%,25% { left: 13%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 23.33% { left: -100%; opacity: 0; }
+    34.63%, 55.29% { left: 13%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 46.66% { left: -100%; opacity: 0; }
+    69.96%, 76.62% { left: 13%; opacity: 1; }
+    80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 69.99% { left: -100%; opacity: 0; }
+    85.96%, 99.62% { left: 13%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}   
+}
+
+@media screen and (min-width: 1920px) {
+    section#test .tes-img {
+        width: 170%;
+        height: 100%;
+        margin: 0;
+    }
+    section#test h2 { font-size: 1.5em;}
+    section#test .item-1, .item-2, .item-3, .item-4{ 
+        font-size: 1.3em;   
+    }
+    section#test .item-2 { width: 100%; margin-top: 5px;}
+    section#test .item-1 { width: 100%; margin-top: 10px;}
+    section#test .item-3 { width: 100%; margin-top: 30px;}
+    section#test .item-4 { width: 100%; margin-top: 10px;}
+    
+    @keyframes anim-1 {
+	0%, 2.3% { left: -100%; opacity: 0; }
+    4.3%,25% { left: 13%; opacity: 1; }
+    33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 23.33% { left: -100%; opacity: 0; }
+    34.63%, 55.29% { left: 13%; opacity: 1; }
+    66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 46.66% { left: -100%; opacity: 0; }
+    69.96%, 76.62% { left: 13%; opacity: 1; }
+    80%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-4 {
+	0%, 69.99% { left: -100%; opacity: 0; }
+    85.96%, 99.62% { left: 13%; opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}   
+}
+
 /* mario carrizales 9-13-2017 */
 .card {
     background: #000;
@@ -346,7 +590,39 @@ header.masthead {
 
 
 @media (min-width: 768px) {
+#scroll_container {
+  width:100%;
+  bottom:45%;
+  display:block;
+}
 
+#flip {
+  height:70px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {margin-top:-10px;}
+  5% {margin-top:-160px;}
+  33% {margin-top:-160px;}
+  38% {margin-top:-80px;}
+  66% {margin-top:-80px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-10px;}
+}
 }
 
 @media (min-width: 992px) {
