@@ -1,4 +1,11 @@
 // Styling for the team section
+section#team {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+section#team h2.section-subheading {
+display: none;
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -15,4 +22,15 @@
   p {
     margin-top: 0;
   }
+}
+@media (min-width: 768px) {
+    section#team h2.section-subheading {
+    font-size: 26px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        display: block;
+}
 }

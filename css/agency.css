@@ -31,13 +31,10 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px; }
-  section h3.section-subheading {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-    margin-bottom: 75px;
-    text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+  section#team h2.section-subheading {
+display: none;
+}
 
 /* mario carrizales 9-13-2017 */
 .card {
@@ -89,6 +86,15 @@ p.carousel-info span {
     .carousel-caption h2 {
         font-size:      5em;
     }
+    section#team h2.section-subheading {
+    font-size: 26px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+        display: block;
+}
 }
 
 ::-moz-selection {
@@ -355,7 +361,10 @@ header.masthead {
 @media (min-width: 1200px) {
     
 }
-
+section#team {
+    padding-top:20px;
+    padding-bottom:20px;
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -508,3 +517,40 @@ footer {
   .btn-xl .badge {
     color: #1aa3ff;
     background-color: white; }
+
+/* scrolling text on splash section */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#scroll_container {
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+  height:70px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-160px;}
+  33% {margin-top:-160px;}
+  38% {margin-top:-80px;}
+  66% {margin-top:-80px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}

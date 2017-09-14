@@ -10,15 +10,6 @@ header.masthead {
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
-        background:rgba(50,50,60,0.4);
-        padding:20px;
-    }
     .intro-heading {
       font-size: 50px;
       font-weight: 700;
@@ -28,6 +19,43 @@ header.masthead {
     }
   }
 }
+/* scrolling text on splash section */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+#scroll_container {
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+  height:70px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
