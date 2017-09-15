@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
@@ -27,13 +29,9 @@ h6 {
 
 section {
   padding: 0; }
-  section h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px; }
-
-  section#team h2.section-subheading {
-display: none;
+section#services {
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 /* mario carrizales 9-13-2017 */
@@ -64,12 +62,15 @@ display: none;
 color:          black !important;
     text-transform: none;
 }
-.carousel-info {
-    font-size: 2em;
+.service-info {
     color: black;
-    display:none;
 }
-p.carousel-info span {
+
+.service-header-h2 {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+p.service-info span {
     text-decoration: underline;
 }
 .material-icons {
