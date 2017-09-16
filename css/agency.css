@@ -29,12 +29,19 @@ h6 {
 
 section {
     padding: 0; }
+/* mario carrizales 9-13-2017 */
 section#services {
     padding-top:40px;
     padding-bottom:40px;
 }
+section#services_cards .card {
 
-/* mario carrizales 9-13-2017 */
+}
+section#testimonials {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
 #mainNav .navbar-brand img {
     height:50px;
 }
@@ -44,10 +51,10 @@ section#services {
 }
 .card {
     background: #000;
+        min-height: 350px;
 }
 .card-title {
     color:beige;
-    border-top: 1px solid #333;
 }
 .carousel-h1 {
     font-size: 4em;
