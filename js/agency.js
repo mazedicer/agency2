@@ -102,15 +102,15 @@
     
     //services cards fix mobile - desktop @420
     var compliance_card = document.getElementsByClassName("card-services")[2];
+    var compliance_card_title = $(compliance_card).find(".card-title");
     var reporting_card = document.getElementsByClassName("card-services")[3];
-    console.log(compliance_card.getAttribute("class"));
-    
+    var reporting_card_title = $(reporting_card).find(".card-title");
     //class switching
     var elements_to_switch = {
         switch_420:{
-            switch_elems:[".service-header-h2", ".service-info"],
-            elems_original_class:["display-3", "h2"],
-            switch_elems_to:["display-5", "h5"]
+            switch_elems:[".service-header-h2",".service-info",compliance_card,compliance_card_title,reporting_card,reporting_card_title],
+            elems_original_class:["display-3", "h2","bg-white","text-dark", "bg-primary","text-white"],
+            switch_elems_to:["display-5", "h5","bg-primary","text-white","bg-white","text-dark"]
         }
     }; 
     $(window).on('resize', function(){
@@ -126,16 +126,12 @@
                 $(elements_to_switch.switch_420.switch_elems[i]).addClass(
                     elements_to_switch.switch_420.switch_elems_to[i]).removeClass(
                     elements_to_switch.switch_420.elems_original_class[i]);
-                //console.log($(elements_to_switch.switch_420.switch_elems[i]));
-                //$(tag_elem).css({ 'font-size': $(this).val() });
             }
         }else{
             for(var i=0;i<elements_to_switch.switch_420.switch_elems.length;i++){
                 $(elements_to_switch.switch_420.switch_elems[i]).addClass(
                     elements_to_switch.switch_420.elems_original_class[i]).removeClass(
                     elements_to_switch.switch_420.switch_elems_to[i]);
-                //console.log($(elements_to_switch.switch_420.switch_elems[i]));
-                //$(tag_elem).css({ 'font-size': $(this).val() });
             }
         }
     }
