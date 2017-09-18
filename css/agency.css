@@ -34,6 +34,9 @@ section#services {
     padding-top:40px;
     padding-bottom:40px;
 }
+section#services_cards {
+    cursor: pointer;
+}
 .card-text {
     display: flex;
 	align-items: center;

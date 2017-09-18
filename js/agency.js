@@ -48,7 +48,26 @@
         }, 1000);
 
     });*/
-
+    
+    //mario carrizales 09-18-2017
+    //services cards links
+    var web_service_card_links = document.getElementsByClassName("card-services")[0];
+    $(web_service_card_links).on("click", function(){
+        window.location.href="web-services.html";
+    });
+    var underwriting_service_card_links = document.getElementsByClassName("card-services")[1];
+    $(underwriting_service_card_links).on("click", function(){
+        window.location.href="underwriting-services.html";
+    });
+    var compliance_service_card_links = document.getElementsByClassName("card-services")[2];
+    $(compliance_service_card_links).on("click", function(){
+        window.location.href="compliance-services.html";
+    });
+    var reporting_service_card_links = document.getElementsByClassName("card-services")[3];
+    $(reporting_service_card_links).on("click", function(){
+        window.location.href="reporting-services.html";
+    });
+    
     //splash scrolling title
     var all_flip_divs = $("#flip").children();
     /* for(let i=0;i<all_flip_divs.length;i++){
