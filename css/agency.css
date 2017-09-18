@@ -34,8 +34,13 @@ section#services {
     padding-top:40px;
     padding-bottom:40px;
 }
-section#services_cards .card {
-
+.card-text {
+    display: flex;
+	align-items: center;
+    height:300px;
+}
+section#services_cards, section#testimonials {
+    border-top: 1px solid #333;
 }
 section#testimonials {
     padding-top:40px;
@@ -57,6 +62,7 @@ section#testimonials {
 }
 .card-title {
     color:beige;
+    text-decoration: underline;
 }
 .carousel-h1 {
     font-size: 4em;
@@ -108,7 +114,7 @@ section#testimonials {
     padding-bottom: 20px;
 }
 p.service-info span {
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 .material-icons {
     color:#666;

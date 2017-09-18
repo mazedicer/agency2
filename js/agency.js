@@ -108,9 +108,9 @@
     //class switching
     var elements_to_switch = {
         switch_420:{
-            switch_elems:[".service-header-h2",".service-info",compliance_card,compliance_card_title,reporting_card,reporting_card_title],
-            elems_original_class:["display-3", "h2","bg-white","text-dark", "bg-primary","text-white"],
-            switch_elems_to:["display-5", "h5","bg-primary","text-white","bg-white","text-dark"]
+            switch_elems:[".service-header-h2",".service-info",compliance_card,compliance_card_title,reporting_card,reporting_card_title,".card-text"],
+            elems_original_class:["display-3", "h2","bg-white","text-dark", "bg-primary","text-white", "h3"],
+            switch_elems_to:["display-5", "h5","bg-primary","text-white","bg-white","text-dark","h5"]
         }
     }; 
     $(window).on('resize', function(){
