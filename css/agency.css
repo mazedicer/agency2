@@ -51,7 +51,9 @@ section#testimonials {
 }
 .card {
     background: #000;
-        min-height: 350px;
+}
+.card-services {
+    min-height: 350px;
 }
 .card-title {
     color:beige;
